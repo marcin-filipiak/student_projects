@@ -22,7 +22,7 @@ Krótki opis projektu, cel i zalety.
 
 ## Zrzuty ekranu i grafiki
 
-![przykladowa grafika](example_pic.png)
+![przykladowa grafika](example_pic.jpeg)
 
 ## Instalacja
 
