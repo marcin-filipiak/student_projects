@@ -20,9 +20,9 @@ Plik `README.md` na GitHubie jest kluczowy, ponieważ pełni funkcję wizytówki
 
 Krótki opis projektu, cel i zalety.
 
-## Zrzuty ekranu
+## Zrzuty ekranu i grafiki
 
-![Zrzut ekranu](link_do_zrzutu.png)
+![przykladowa grafika](example_pic.png)
 
 ## Instalacja
 
