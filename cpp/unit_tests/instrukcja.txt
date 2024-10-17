@@ -1,0 +1,39 @@
+Ćwiczenia z unit test zostały podzielone na foldery.
+Poniżej znajdziesz opis zawartości każdego z nich.
+
+----------------------
+Hello:
+
+Jest przykładem stosowania biblioteki gtest.
+
+functions.cpp zawiera funkcję która jest podłączona do pliku main.cpp i w nim wywołana,
+oraz w plku main_test.cpp który zawiera testy tej funkcji.
+
+kompiluj.sh kompiluje i uruchamia program.
+kompiluj_test.sh kompiluje testy i je uruchamia
+
+Na bazie tego szablonu zostały stworzone pozostałe testy.
+
+------------------------
+Asercje:
+
+Asercje to wyrażenia lub funkcje, które sprawdzają, czy pewne warunki są spełnione podczas wykonywania programu. W kontekście testów jednostkowych, asercje są używane do porównywania rzeczywistych wyników z oczekiwanymi.
+
+W Google Test, asercje są często używane do tworzenia warunków, które muszą być spełnione podczas testu. Przykłady to EXPECT_EQ, ASSERT_TRUE, ASSERT_FALSE, itp. Asercje są krytyczne w testach, ponieważ umożliwiają stwierdzenie, czy funkcje działają zgodnie z oczekiwaniami
+
+-------------------------
+Parametric:
+
+Testy parametryczne to rodzaj testów, które pozwalają na przetestowanie funkcjonalności z różnymi zestawami danych wejściowych. W przeciwieństwie do testów generycznych, testy parametryczne skupiają się na zmienianiu parametrów wejściowych, a nie na zmianie typów danych. Testy parametryczne mogą być szczególnie użyteczne w sytuacjach, gdzie chcemy przetestować tę samą funkcję lub scenariusz testowy z różnymi danymi.
+
+-------------------------
+Benchmark:
+
+Testy benchmarkowe to specjalne rodzaje testów, których celem jest pomiar wydajności danego fragmentu kodu lub całego programu. W przeciwieństwie do tradycyjnych testów jednostkowych, które sprawdzają poprawność logiczną i funkcjonalność kodu, testy benchmarkowe skupiają się na ocenie czasu wykonania określonych operacji.
+
+-------------------------
+Generic:
+
+Testy generyczne, czasem określane jako testy parametryczne, to rodzaj testów, które pozwalają na przetestowanie wielu przypadków jednocześnie, używając różnych zestawów danych wejściowych. Są one szczególnie przydatne w sytuacjach, gdzie ta sama logika testowa może być używana dla różnych typów danych lub różnych warunków wejściowych.
+
+
